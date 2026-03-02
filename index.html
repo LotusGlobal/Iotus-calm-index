@@ -1,9 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Lotus Calm</title>
+    <meta charset="UTF-8">
+    <title>Lotus Calm Index</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Welcome to Lotus Calm 🌸</h1>
+
+    <h1>Lotus Calm Index 🌿</h1>
+
+    <textarea 
+        placeholder="Start typing here..."
+        rows="8"
+        cols="60">
+    </textarea>
+<button id="resetBtn">Start New Session</button>
+    <div class="stats">
+         <p>Speed: <span id="speed">0</span> WPM</p>
+         <p>Error Rate: <span id="errors">0</span>%</p>
+         <p>Calm Index: <span id="calmScore">100</span></p>
+        <div class="bar">
+            <div id="calmBar"></div>
+        </div>
+    </div>
+
+    <p id="message"></p>
+    <div id="breathingCircle"></div>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
